@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPA DU MUNDO</title>
+</head>
+<body>
+    <script>
+        function pulaLinha() {
+
+            document.write("<br>");
+            }
+
+        function mostra(frase) {
+
+            document.write(frase);
+            pulaLinha();
+            }
+
+        var contador = 30;    
+        while (contador <=40) {
+            if (contador == 33 || contador == 37) {
+                contador++;
+            }
+            else {
+            mostra(contador);
+            contador++;}
+            
+        }   
+
+        mostra("FIM"); 
+    </script>
+    
+</body>
+</html>
